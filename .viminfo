@@ -1,4 +1,4 @@
-# この viminfo ファイルは Vim 7.3 によって生成されました.
+# この viminfo ファイルは Vim 7.4 によって生成されました.
 # 変更する際には十分注意してください!
 
 # このファイルが書かれた時の 'encoding' の値
@@ -8,473 +8,141 @@
 # hlsearch on (H) or off (h):
 ~h
 # 最後の 検索パターン:
-~MSle0~/checkValue
+~MSle0~/aes
 
 # 最後の Substitute 検索パターン:
-~MSle0&BufferedReader
+~MSle0&phy_
 
 # 最後に置換された文字列:
-$
+$macl_
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
 :q
-:1
-:e!
-:wq
-:88
 :w
-:E!
+:vs mach_lazurite.c
+:NERDTree
+:q!
+:q:
+:1,24y
+:1
+:vs
 :make
 :copen
-:175
-:n
-:vs test_raw2.java
-:vs mac_info.java
-:mak
-:$
-:183
-:vs ComChart.java
-:158,191d
-:106,143d
-:vs Param.java
-:'<,'>1
-:sp Param.java
-:sp
-:18,29y
-:vs ~/java/LazuriteJava/sample/sample_serial.java
-:vs /
-:vs ~/java/LazuriteJava/lib/com/lapis_semi/lazurite/io/jexe
-:vs Makefile
-:make install
-:cpoen
-:SubGHzEvent
-:vs ~/LazGem/lib/LazGem/device.rb
-:vs .
-:vs
-:vs sample_raw2.java
-:q!
-:a
-:vs Raw.java
-:vs CtrlDeviceList.java
-:wa
-:'<,'>q
-:%s/BufferedReader/PipedReader/g
-:w sample_serial2.java
-:vs sample_serial.java
-:vs sample_serial.class
-:vs SubGHz.java
-:Event
-:vs ../../sample/sample_rx.rb
-:vs ../LazGem/lib/LazGem/device.rb
-:vs ../lib/LazGem/device.rb
+:wq
+:.cc
+:vim memcpy **/*
 :vs 
-:vs /var/lib/gems/1.9.1/gems/m2x-2.4.0/m2x.gemspec
-:22
-:122
-:vs sample_rx.rb
-:vs ./sample_rx.rb
-:33
-:vs lazurite.rb
-:vs ~/lib/com/lapis_semi/lazurite/io/Raw.java
-:O
-:%s/device/device_rd
-:vs ../ruby/SendTest.rb
-:vs SerialMonitor.rb
-:vs ~/driver/sub-ghz/drv-802154e.c
-:set wrap
-:38
-:vs test.rb
-:w err.rb
-:wrap
-:vs python/gateway.py
-:vs .bashrc
-:end
-:84
-:83
-:82
-:115
-:vs sample_raw.java
-:l
-:sp sample_raw.java
-:setA
-:42,78y
-:sp sample_raw2.java
-:vs conv.java
-::c
-:make clean 
-:vs mac-802154e.h
-:make clean
-:169,196y
-:vs common_802154e.h
-:ma
-:vs RawEventObject.java
-:vs RawEventListener.java
-:./
-:wn
-:pre
-:next
-:mqke
-::w
-:m
-:maek
-:vs SubGHzEventListener.java
-:sp RawEventListener.java
-:101
-:16,39d
-:42,62d
-:w sample_raw2.java
-::::q
-:sp Raw.java
-:.1
-:vs RawEventListener
-:vs ~/java2/LazuriteSubGHz.java
-:vs ~/java2/LazuriteGui.java
-:129
-:117
-:vs RawEventListener.class
-:vs ./RawEventObject.java
-:vs SubGHzEventObject.java
-:vs SubGHzEventObject.class
-:vs SubGHzEventListener.class
-:'<,'>:q
-:vs SubGHzEvent.java
-:q:
-:vs Raw.class
-:122,148d
-:vs common.java
-:30,58d
-:48
-:102,120d
-:w temp.
-:vs LazuriteInputStream.java
-:name
-:vs CtrlDeviceList.class
-:vs ./CtrlDeviceList.java
-:vs CtrlProperties.java
-::q
-:vs device.pref
-::wq
-:vs ./LazuriteInputStream.java
-:makew
-:35,66d
-:21,47y
-:25,49d
-:e
-:162,195d
-:vs CONV.class
-:116
-:vs CONV.java
-:vs byte2int.java
-:190,202d
-:set number
-:set nonumber
-:vs ./CustomOutputStream.java
-:vs CustomOutputStream.java
-:vs LazuriteSubGHz.java
+:maked
+:am
+:vs mach_lazurite.h
+:k
+:1,44y
+:e!
+:sp common_lazurite.h
+:vs app_lazurite.h
 :w!
-:h
-:vs LazuriteGui.java
-:,ale
-:copne
-:66
-:wsq
-:73
-:119
-:51
-:64
-:%s/mode=1/mode=true
-:help mouse-using
-:help mouse
-:vs help mouse
-:vs help mouse-using
-:25,80y
-::wq:;:
-::::::
-::
-:::::
-::jkjkj
-:qw
-:set wra@
-:29,34y
-:vs ~/ruby/SerialMonitor.rb
-:W
-:vs ~/ruby/BinaryMonitor.rb
-:r ~/ruby2/laz-gem-0.0.1/laz/lazurite.rb
-:r ~/ruby2/laz-gem-0.0.1/laz.rb
-:vs ~/.bashrc
-:mnake
+:vs ~/driver/liblazurite/lib/dyliblazurite.cpp
+:vs app_lazurite.c
+:'<,'>q
+:vs subghz_api.c
+:vs net/errno.h
+:$
+:2
+:sp
+::verbose :setlocal filetype?
+:verbose :setlocal filetype?
+:sp net/mach_lazurite.c
+:vs ~/.vimrc
+:vs net/mach_lazurite.h
+:%s/phy_/macl_
+:vs macl_lazurite.h
+:sp mach_lazurite.h
+:86,333d
+:694,791y
+:vs ../CTI/core/ml7396.c
+:vs ../subghz_api.c
+:vs .
+:137,363y
+:vs ../CTI/api/bp3596.c
+:vs phy_lazurite.h
+:::::q
+:%s/
+:%s,^,,g
+:^,,d
+:~,,g
+:^,,g
+:~//g
+:^//g
+:39,45y
+:sp mac_lazurite.h
+:vs mac_lazurite.c
+:vs CTI/phy_lazurite.h
+:vs CTI/
+:vs CTI/mac_lazurite.h
+:sp CTI/phy7396.h
+:sp CTI/core/ml7396.h
+:vs CTI/core/ml7396.h
+:vs CTI/api/bp3596.h
+:vim em_data **/*
+:vimgrep "\.status" **/* | cw
+:vimgrep "\.size" **/* | cw
+:vimgrep ".status" **/* | cw
+:vimgrep \.status **/* | cw
+:vimgrep .status **/* | cw
+:vimgrep %.status **/* | cw
+:vimgrep %.status **/*
+:vimgrep \.status **/*
+:vimgrep .status **/*
+:vimgrep ML7396_Buffer **/* | cw
+:vimgrep ML7396_Buffer **/*
+:vim ML7396_Buffer */**
+:vim ML7396_Buffer *
+:vim ML7386_Buffer **/*
+:vs CTI/core/ml7396.c
+:e
+:260
+:::
+:.1
 
 # 検索文字列 項目の履歴 (新しいものから古いものへ):
-?/checkValue
-?/getParam
-?/Graph
-?/insmod
-?/driver
-?/Device
-?/inputLine
-?/inputLi
-?/samp
-?/sample
-?/sampe
-?/ETX
-?/rxAvai
-?/println
-?/Raw
-?/SerialModeRx
-?/SerialModeRxAvai
-?/:q
-?/class
-?/catch
-?/queue
-?/Input
-?/InputStream
-?/initRx
-?/piped
-?/Datatype
-?/DataType
-?/InputStrea
-?/plot
-?/plotG
-?/ok
-?/data
-?/dataok
-?/selected
-?/input
-?/EventLis
-?/selec
-?/tab
-?/jvm
-?/gnu
-?/rxtx
-?/SubGHz
-?/static
-?/time
-?/rssi
-?/device
-?/device.pref
-?/device.pre
-?/Date
-?/readLine
-? BufferedReader
-?/inputstream
-?/Buffered
-?/BUfferedReader
-? \<System\>
-?/bw
-?/bos
-?/pis
-?/Piped
-?/optValue
-?/Event
-?/SubGHz Event
-?/Serial
-?/while
-?/ready
-?/comp
-?/System.out.
-?/RawDataAvailab
-?/addr
-?/SerialModeRxAvailab
-?/enbSerialMode
-?/rxRaw
-?/SerialModeRxAvailable
-?/setSe
-?/setSerialMode
-?/call
-?/callback
-?/begin
-?/fetch
-?/EACK
-?/Cli
-?/vim
-?/respend
-?/gem.
-?/git
-?/setI
-?/main
-?/mode
-?/pwr
-?/init
-?/mac
-?/mac_init
-?/ch
-? \<LAZURITE_ERROR\>
-?/write
-?/send
-?/usec
-?/Time
-?/close
-?/rx
-?/txAddr
-?/pay
-?/Succes
-?/result
-?/tail
-?/system
-?/print
-?/set
-?/setAdd
-?/write_device
-? \<heade\>
-? device
-?/unpack
-?/c;pse
-?/open
-?/sleep
-?/BP
-?/BufSize
-?/Buffer
-?/BufferSize
-?/pos
-?/pr
-?/end
-?/String
-?/interval
-?/raw
-?/setInterval
-?/Main
-?/rxA
-?/System.out
-?/System
-?/6670
-?/setSerial
-?/setS
-?/setSeri
-?/Datatye
-?/Hex
-?/this
-?/buffer
-?/head
-?/ptr
-?/read
-?/out
-?/getns
-?/AC65
-?/ST
-?/subghz
-?/SerialChart
-?/package
-?/PORT
-?/output
-?/clo
-?/LL
-?/length
-?/LL2
-?/notifyOnDat
-?/notifyOn
-?/addEventList
-?/Formatter
-?/Receiving
-?/SerialEvent
-?/Notification
-?/getInputStream
-?/addEvent
-?/RawData
-?/setSer
-?/NotifyOnData
-?/NotifyOn
-?/addEventListener
-?/listener
-?/size
-?/Recei
-?/enbRawData
-?/enbSerial
-?/removeE
-?/remove
-?/rxData
-?/EventO
-?/ev
-?/Leng
-?/o
-?/getR
-?/Main_Raw
-?/th\.
-?/fis
-?/th.
-?/avail
-?/pac
+?/aes
+?/works
+?/AES
+?/INPUT
+?/dir
+?/lib
+?/au
+?/filt
+?/hard
 ?/get
-?/ON
-?/notify
-?/Main_Ra
-?/th
-?/Stop
-?/start
-?/Main_Sub
-?/Thread
-?/Byte
-?/onDataAva
-?/abst
-?/absttact
-?/abstruct
-?/printInput
-?/keys
-?/key
-?/getParameter
-?/getParaneter
-?/getPara
-?/eq
-? }
-?/getPro
-?/getProgery
-?/property
-?/valueof
-?/devList
-?/throw
-?/printInputStrea
-?/PHY_DATA_SIZE
-?/SerialPort
-?/pack
-?/SerialChartDemo
-?/initialize
-?/Initialize
-?/demo
-?/CONV
-?/Custom
-?/OutputStream
-?/list_data
-?/serialPort
-?/ActionEvent
-?/Action
-?/ove
-?/over
-?/private
-?/Print
-? mode=1
-?/availabe
-?/avai
-?/Avail
-?/available
-?/rxLi
-?/Available
-?/Availabe
-?/getRx
-?/getRxPacket
-?/byte
-?/Format
-?/format
-?/notifyOnRawData
-?/r
-?/Data
-?/RxData
-?/Main_
-?/STX
-?/list_del
-?/list
-?/listed
-?/printf
-?/2.0
-?/rspec
-?/min
-?/no
-?/fromRaw
-?/java
-?/JAVA
-?/BufferedOut
-?/inputStream
-?/rx/queue
-?/peek
-?/add
+?/get_addr
+?/phy_
+?/macl_
+? phy_
+?/parse
+?/_tx
+?/make
+?/mac_
+? ^
+? \<mac_init\>
+?/level
+?/EM_Data
+?/make_data
+?/ML7396_Buffer
+?/make_
+?/bp3596_reset
+?/ML7396_
+?/ml7396_bu
+?/parse_data
+?/payload
+?/setAddrType
+?/get_sense
+?/	
+?/set_ch
+?/GET_SEND_MODE
+?/tests
+?/remove
+?/lazurite
 
 # 式 項目の履歴 (新しいものから古いものへ):
 
@@ -484,1465 +152,1461 @@ $
 
 # レジスタ:
 "0	LINE	0
-	*.exe
+	
+	/* mach_lazurite.c - MAC(High level) for lazurite
+	 *
+	 * Copyright (c) 2015  Lapis Semiconductor Co.,Ltd
+	 * All rights reserved.
+	 *
+	 * This program is free software: you can redistribute it and/or
+	 * modify it under the terms of the GNU Lesser General Public License
+	 * as published by the Free Software Foundation, either version 3 of
+	 * the License, or (at your option) any later version.
+	 *
+	 * This program is distributed in the hope that it will be useful, but
+	 * WITHOUT ANY WARRANTY; without even the implied warranty of
+	 * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+	 * Lesser General Public License for more details.
+	 *
+	 * You should have received a copy of the GNU Lesser General Public
+	 * License along with this program.  If not, see
+	 * <http://www.gnu.org/licenses/>
+	 */
+	
+	/*! @struct MACH_PARAM
+	  @brief  local parameter for mac high layer
+	  */
 "1	LINE	0
-			// Driver insmod
+	
 "2	LINE	0
-					System.out.println("rx SubGHz");
+	
 "3	LINE	0
-					ex.printStackTrace();
+	
 "4	LINE	0
-			} catch (Exception ex) {
-				ex.printStackTrace();
-			}
-"5	LINE	0
-			try {
+	
+"5	CHAR	0
+	
+	/*
 "6	LINE	0
-					System.out.println(inputLine);
+	
 "7	LINE	0
 	
 "8	LINE	0
-	
+	# with '#' will be ignored, and an empty message aborts the commit.
 "9	LINE	0
-				String[] inputValues = inputLine.split(",");
+	 Please enter the commit message for your changes. Lines starting
+"k	CHAR	0
+	kjkAu��L��L��L��K��K��K��K
 ""-	CHAR	0
-	unload
+	h
 
 # ファイルマーク:
-'0  647  15  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
-'1  88  16  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/Raw.java
-'2  155  6  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/SubGHz.java
-'3  245  0  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/Raw.java
-'4  1  0  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/SubGHz.java
-'5  89  2  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/Raw.java
-'6  3  6  ~/java/LazuriteGraph/.gitignore
-'7  175  1  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/ComChart.java
-'8  5  21  ~/java/LazuriteGraph/LazuriteGraph.exe
-'9  3  31  ~/LazuriteJava/Makefile
+'0  4  0  ~/driver/LazDriver/net/NERD_tree_1
+'1  1  0  ~/driver/LazDriver/net/arib.c
+'2  1  0  ~/driver/LazDriver/net/Makefile
+'3  2  37  ~/driver/LazDriver/net/Makefile
+'4  1  0  /etc/wpa_supplicant/wpa_supplicant.conf
+'5  217  19  ~/develop/LazDriver/drv-lazurite.c
+'6  9  0  ~/driver/LazDriver/.git/COMMIT_EDITMSG
+'7  31  0  ~/driver/LazDriver/.git/COMMIT_EDITMSG
+'8  48  0  ~/driver/LazDriver/net/common_lazurite.h
+'9  14  18  ~/driver/LazDriver/NERD_tree_1
 
 # ジャンプリスト (新しいものが先):
--'  647  15  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  606  14  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  603  13  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  495  14  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  395  14  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  292  12  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  291  9  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  290  15  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  243  18  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  92  41  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  102  2  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  77  6  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  81  16  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  86  33  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  74  16  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  69  12  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  60  23  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  58  23  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  55  10  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  46  1  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  42  21  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  1  40  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  389  35  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  392  32  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  397  10  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  398  10  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  401  9  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  676  0  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  106  2  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  88  16  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/Raw.java
--'  45  21  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/Raw.java
--'  89  12  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/Raw.java
--'  47  0  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/Raw.java
--'  52  30  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/Raw.java
--'  48  5  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/Raw.java
--'  44  25  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/Raw.java
--'  1  0  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/Raw.java
--'  155  6  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/SubGHz.java
--'  139  1  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/SubGHz.java
--'  1  0  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/SubGHz.java
--'  245  0  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/Raw.java
--'  3  6  ~/java/LazuriteGraph/.gitignore
--'  1  0  ~/java/LazuriteGraph/.gitignore
--'  175  1  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/ComChart.java
--'  182  87  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/ComChart.java
--'  209  2  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/ComChart.java
--'  1  0  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/ComChart.java
--'  5  21  ~/java/LazuriteGraph/LazuriteGraph.exe
--'  1  0  ~/java/LazuriteGraph/LazuriteGraph.exe
--'  3  31  ~/LazuriteJava/Makefile
--'  1  0  ~/LazuriteJava/Makefile
--'  226  1  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/SubGHz.java
--'  181  1  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/SubGHz.java
--'  150  24  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/ComChart.java
--'  172  9  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/ComChart.java
--'  305  29  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  178  9  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/ComChart.java
--'  167  21  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/ComChart.java
--'  168  3  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/ComChart.java
--'  170  0  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/ComChart.java
--'  206  6  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/ComChart.java
--'  174  0  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/ComChart.java
--'  1  0  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/exe
--'  180  26  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/ComChart.java
--'  188  2  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/ComChart.java
--'  327  2  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
--'  17  18  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/test_serial.java
--'  14  37  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/test_serial.java
--'  13  32  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/test_serial.java
--'  9  16  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/test_serial.java
--'  1  0  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/test_serial.java
--'  17  16  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/test_raw2.java
--'  16  14  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/test_raw2.java
--'  1  0  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/test_raw2.java
--'  16  15  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/test_raw.java
--'  13  31  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/test_raw.java
--'  10  13  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/test_raw.java
--'  1  0  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/test_raw.java
--'  1  0  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/sample_raw.java
--'  228  0  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/io/SubGHz.java
--'  1  0  ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/io/SubGHz.java
--'  78  18  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/mac_info.java
--'  1  0  ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/mac_info.java
--'  4  46  ~/LazGem/release.log
--'  1  0  ~/LazGem/release.log
--'  2  19  ~/LazGem/lib/LazGem/version.rb
--'  1  0  ~/LazGem/lib/LazGem/version.rb
--'  160  26  ~/LazGem/lib/LazGem/device.rb
--'  1  0  ~/LazGem/lib/LazGem/device.rb
+-'  4  0  ~/driver/LazDriver/net/NERD_tree_1
+-'  23  2  ~/driver/LazDriver/net/NERD_tree_1
+-'  1  0  ~/driver/LazDriver/net/NERD_tree_1
+-'  1  0  ~/driver/LazDriver/net/arib.c
+-'  1  0  ~/driver/LazDriver/net/mach.c
+-'  1  0  ~/driver/LazDriver/net/Makefile
+-'  2  37  ~/driver/LazDriver/net/Makefile
+-'  1  0  /etc/wpa_supplicant/wpa_supplicant.conf
+-'  378  16  ~/develop/LazDriver/subghz_api.c
+-'  384  15  ~/develop/LazDriver/subghz_api.c
+-'  385  33  ~/develop/LazDriver/subghz_api.c
+-'  387  47  ~/develop/LazDriver/subghz_api.c
+-'  432  48  ~/develop/LazDriver/subghz_api.c
+-'  388  13  ~/develop/LazDriver/subghz_api.c
+-'  375  44  ~/develop/LazDriver/subghz_api.c
+-'  92  4  ~/develop/LazDriver/subghz_api.c
+-'  150  0  ~/develop/LazDriver/subghz_api.c
+-'  1  0  ~/develop/LazDriver/subghz_api.c
+-'  217  19  ~/develop/LazDriver/drv-lazurite.c
+-'  161  0  ~/develop/LazDriver/drv-lazurite.c
+-'  1  0  ~/develop/LazDriver/drv-lazurite.c
+-'  9  0  ~/driver/LazDriver/.git/COMMIT_EDITMSG
+-'  1  0  ~/driver/LazDriver/.git/COMMIT_EDITMSG
+-'  41  15  ~/driver/LazDriver/net/mach_lazurite.h
+-'  25  20  ~/driver/LazDriver/net/endian.h
+-'  55  0  ~/driver/LazDriver/net/endian.h
+-'  32  29  ~/driver/LazDriver/net/endian.h
+-'  1  0  ~/driver/LazDriver/net/endian.h
+-'  31  0  ~/driver/LazDriver/.git/COMMIT_EDITMSG
+-'  48  0  ~/driver/LazDriver/net/common_lazurite.h
+-'  40  0  ~/driver/LazDriver/net/mach_lazurite.h
+-'  21  0  ~/driver/LazDriver/net/app_lazurite.h
+-'  36  0  ~/driver/LazDriver/net/app_lazurite.c
+-'  1  0  ~/driver/LazDriver/net/app_lazurite.c
+-'  3  8  ~/driver/LazDriver/net/Makefile
+-'  14  18  ~/driver/LazDriver/NERD_tree_1
+-'  23  2  ~/driver/LazDriver/NERD_tree_1
+-'  1  7  ~/driver/LazDriver/NERD_tree_1
+-'  376  3  ~/driver/LazDriver/net/mach_lazurite.c
+-'  1  0  ~/driver/LazDriver/net/mach_lazurite.c
+-'  33  24  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  84  0  ~/driver/LazDriver/net/mach_lazurite.c
+-'  27  75  ~/.vimrc
+-'  18  65  ~/.vimrc
+-'  79  76  ~/driver/LazDriver/net/mach_lazurite.c
+-'  61  0  ~/driver/LazDriver/net/mach_lazurite.h
+-'  68  0  ~/driver/LazDriver/net/mach_lazurite.c
+-'  33  0  ~/driver/LazDriver/NERD_tree_1
+-'  44  2  ~/driver/LazDriver/NERD_tree_1
+-'  367  22  ~/driver/LazDriver/net/mach_lazurite.c
+-'  250  5  ~/driver/LazDriver/net/mach_lazurite.c
+-'  292  1  ~/driver/LazDriver/net/mach_lazurite.c
+-'  349  1  ~/driver/LazDriver/net/mach_lazurite.c
+-'  373  0  ~/driver/LazDriver/net/mach_lazurite.c
+-'  239  0  ~/driver/LazDriver/net/mach_lazurite.c
+-'  212  0  ~/driver/LazDriver/net/mach_lazurite.c
+-'  787  0  ~/driver/LazDriver/CTI/core/ml7396.c
+-'  352  0  ~/driver/LazDriver/net/mach_lazurite.c
+-'  348  7  ~/driver/LazDriver/net/mach_lazurite.c
+-'  314  7  ~/driver/LazDriver/net/mach_lazurite.c
+-'  306  25  ~/driver/LazDriver/net/mach_lazurite.c
+-'  287  8  ~/driver/LazDriver/net/mach_lazurite.c
+-'  286  24  ~/driver/LazDriver/net/mach_lazurite.c
+-'  284  15  ~/driver/LazDriver/net/mach_lazurite.c
+-'  22  10  ~/driver/LazDriver/net/mach_lazurite.c
+-'  343  1  ~/driver/LazDriver/net/mach_lazurite.c
+-'  353  0  ~/driver/LazDriver/net/mach_lazurite.c
+-'  378  16  ~/develop/LazDriver/subghz_api.c
+-'  384  15  ~/develop/LazDriver/subghz_api.c
+-'  385  33  ~/develop/LazDriver/subghz_api.c
+-'  387  47  ~/develop/LazDriver/subghz_api.c
+-'  432  48  ~/develop/LazDriver/subghz_api.c
+-'  388  13  ~/develop/LazDriver/subghz_api.c
+-'  375  44  ~/develop/LazDriver/subghz_api.c
+-'  92  4  ~/develop/LazDriver/subghz_api.c
+-'  150  0  ~/develop/LazDriver/subghz_api.c
+-'  1  0  ~/develop/LazDriver/subghz_api.c
+-'  217  19  ~/develop/LazDriver/drv-lazurite.c
+-'  161  0  ~/develop/LazDriver/drv-lazurite.c
+-'  1  0  ~/develop/LazDriver/drv-lazurite.c
+-'  9  0  ~/driver/LazDriver/.git/COMMIT_EDITMSG
+-'  1  0  ~/driver/LazDriver/.git/COMMIT_EDITMSG
+-'  41  15  ~/driver/LazDriver/net/mach_lazurite.h
+-'  25  20  ~/driver/LazDriver/net/endian.h
+-'  55  0  ~/driver/LazDriver/net/endian.h
+-'  32  29  ~/driver/LazDriver/net/endian.h
+-'  1  0  ~/driver/LazDriver/net/endian.h
+-'  31  0  ~/driver/LazDriver/.git/COMMIT_EDITMSG
+-'  48  0  ~/driver/LazDriver/net/common_lazurite.h
+-'  40  0  ~/driver/LazDriver/net/mach_lazurite.h
+-'  21  0  ~/driver/LazDriver/net/app_lazurite.h
+-'  36  0  ~/driver/LazDriver/net/app_lazurite.c
+-'  1  0  ~/driver/LazDriver/net/app_lazurite.c
+-'  14  18  ~/driver/LazDriver/NERD_tree_1
+-'  23  2  ~/driver/LazDriver/NERD_tree_1
 
 # ファイル内マークの履歴 (新しいものから古いもの):
 
-> ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/LazuriteGraph.java
-	"	647	15
-	.	676	0
+> ~/driver/LazDriver/net/arib.c
+	"	1	6
+	^	1	7
+	.	1	6
 	+	1	0
-	+	19	0
+	+	1	6
+
+> ~/driver/LazDriver/net/NERD_tree_1
+	"	4	0
+	^	68	9
+	.	1	0
 	+	1	0
-	+	220	0
-	+	183	0
-	+	184	0
-	+	184	25
-	+	184	0
-	+	676	0
-
-> ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/Raw.java
-	"	88	16
-	^	88	17
-	.	88	16
-	+	89	0
-	+	88	16
-
-> ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/SubGHz.java
-	"	155	6
-	^	199	2
-	.	213	0
-	+	228	0
-	+	228	33
-	+	222	0
-	+	98	0
-	+	93	0
-	+	94	0
-	+	94	0
-	+	82	0
-	+	94	0
-	+	200	0
-	+	200	0
-	+	193	0
-	+	196	24
-	+	200	21
-	+	222	72
-	+	224	41
-	+	227	2
-	+	224	30
-	+	226	27
-	+	225	27
-	+	226	50
-	+	222	20
-	+	228	35
-	+	222	0
-	+	209	6
-	+	209	0
-	+	206	7
-	+	220	3
-	+	220	0
-	+	208	44
-	+	220	0
-	+	223	0
-	+	216	19
-	+	207	12
-	+	216	25
-	+	218	36
-	+	221	11
-	+	228	0
-	+	200	18
-	+	208	42
-	+	209	0
-	+	217	56
-	+	218	36
-	+	217	32
-	+	101	24
-	+	100	41
-	+	101	31
-	+	217	0
-	+	226	0
-	+	216	8
-	+	218	0
-	+	220	0
-	+	220	0
-	+	216	0
-	+	215	6
-	+	219	5
-	+	215	0
-	+	211	0
-	+	215	0
-	+	215	0
-	+	212	0
-	+	215	0
-	+	212	4
-	+	214	4
-	+	213	10
-	+	210	0
-	+	211	4
-	+	212	4
-	+	204	3
-	+	203	46
-	+	213	21
-	+	204	2
-	+	203	3
-	+	108	29
-	+	108	15
-	+	108	9
-	+	108	8
-	+	108	70
-	+	196	0
-	+	192	7
-	+	196	0
-	+	195	26
-	+	198	0
-	+	195	26
-	+	193	0
-	+	195	37
-	+	191	12
-	+	197	0
-	+	191	13
-	+	194	35
-	+	195	36
-	+	196	16
-	+	205	1
-	+	204	46
-	+	189	1
-	+	188	20
-	+	199	1
-	+	198	28
-	+	108	0
-	+	213	0
-
-> ~/java/LazuriteGraph/.gitignore
-	"	3	6
-	^	3	7
-	.	3	6
-	+	3	6
-
-> ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/ComChart.java
-	"	175	1
-	^	175	2
-	.	175	1
 	+	1	0
-	+	50	22
-	+	51	34
-	+	51	10
-	+	51	2
-	+	51	9
-	+	51	21
-	+	139	0
-	+	141	17
-	+	136	0
-	+	154	1
-	+	210	0
-	+	221	2
-	+	221	11
-	+	134	35
-	+	221	18
-	+	142	0
-	+	144	44
-	+	136	0
-	+	215	0
-	+	221	0
-	+	163	0
-	+	30	101
-	+	50	77
-	+	51	7
-	+	32	0
-	+	45	21
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/driver/LazDriver/net/mach_lazurite.c
+	"	11	39
+	^	122	57
+	.	1	0
+	+	396	0
+	+	407	0
+	+	407	23
+	+	407	15
+	+	407	45
+	+	407	0
+	+	407	33
+	+	396	24
+	+	397	28
+	+	404	21
+	+	396	5
+	+	397	5
+	+	398	24
+	+	399	21
+	+	399	22
+	+	401	1
+	+	404	0
+	+	400	18
+	+	400	22
+	+	401	9
+	+	402	22
+	+	403	1
+	+	402	0
+	+	398	45
+	+	399	40
+	+	407	0
+	+	407	0
+	+	407	0
+	+	407	0
+	+	405	2
+	+	406	0
+	+	407	0
+	+	406	75
+	+	376	0
+	+	371	0
+	+	372	24
+	+	387	2
+	+	391	31
+	+	389	20
+	+	392	2
+	+	394	0
+	+	393	8
+	+	389	11
+	+	393	13
+	+	395	0
+	+	393	18
+	+	377	0
+	+	378	0
+	+	382	17
+	+	383	16
+	+	384	0
+	+	384	11
+	+	379	30
+	+	382	0
+	+	385	39
+	+	384	23
+	+	385	36
+	+	384	11
+	+	385	14
+	+	384	0
+	+	385	12
+	+	384	19
+	+	381	19
+	+	380	25
+	+	381	40
+	+	372	0
+	+	369	36
+	+	410	33
+	+	411	1
+	+	415	0
+	+	410	20
+	+	413	25
+	+	412	22
+	+	354	0
+	+	414	15
+	+	408	0
+	+	389	10
+	+	111	26
+	+	110	35
+	+	111	27
+	+	89	56
+	+	120	13
+	+	65	8
+	+	64	20
+	+	65	6
+	+	64	19
+	+	65	40
+	+	105	15
+	+	105	19
+	+	105	12
+	+	115	29
+	+	118	0
+	+	124	4
+	+	125	0
+	+	134	0
+	+	133	0
+	+	134	0
+	+	115	29
+	+	122	56
+	+	1	0
+
+> ~/driver/LazDriver/net/mach.c
+	"	1	28
+	.	1	0
+	+	24	14
+	+	25	14
+	+	1	0
+
+> ~/driver/LazDriver/net/subghz_api.h
+	"	30	14
+	.	30	0
+	+	29	0
 	+	30	0
-	+	28	35
-	+	51	25
-	+	220	0
-	+	221	0
-	+	51	0
-	+	51	22
-	+	129	0
-	+	107	0
-	+	156	0
-	+	207	0
-	+	171	29
-	+	207	0
-	+	162	0
-	+	174	0
-	+	161	3
-	+	160	15
-	+	207	0
-	+	168	0
-	+	167	15
-	+	171	23
-	+	182	1
-	+	187	34
-	+	51	0
-	+	94	0
-	+	93	0
-	+	206	0
-	+	182	0
-	+	187	0
-	+	182	0
-	+	185	20
-	+	185	21
-	+	182	25
-	+	166	0
-	+	167	35
-	+	159	32
-	+	182	86
-	+	180	0
-	+	182	86
-	+	180	0
-	+	185	0
-	+	175	36
-	+	174	0
-	+	173	0
-	+	181	3
-	+	182	59
-	+	182	0
-	+	206	0
-	+	176	0
-	+	182	86
-	+	182	86
-	+	180	0
-	+	172	0
-	+	174	3
-	+	172	18
-	+	178	8
-	+	167	0
-	+	178	9
-	+	175	24
-	+	182	87
-	+	183	0
-	+	175	1
 
-> ~/java/LazuriteGraph/LazuriteGraph.exe
-	"	5	21
-	^	5	18
-	.	5	21
-	+	5	21
+> ~/driver/LazDriver/net/mach.h
+	"	36	14
+	.	36	14
+	+	36	14
 
-> ~/LazuriteJava/Makefile
-	"	3	31
+> ~/driver/LazDriver/net/subghz_api.c
+	"	35	14
+	.	35	14
+	+	35	14
 
-> ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/mac_info.java
-	"	31	2
-
-> ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/exe
+> ~/driver/LazDriver/net/Makefile
 	"	1	0
-	^	5	114
-	.	5	113
-	+	2	79
-	+	1	2
+	^	2	71
+	.	2	66
+	+	3	9
+	+	2	9
+	+	3	0
+	+	2	9
+	+	3	0
+	+	2	90
+	+	2	160
+	+	2	102
+	+	2	157
+	+	2	124
+	+	2	205
+	+	2	145
+	+	2	191
+	+	2	212
+	+	3	0
+	+	3	0
+	+	2	66
+
+> ~/develop/LazDriver/subghz_api.c
+	"	447	32
+
+> ~/develop/LazDriver/CTI/api/aes.c
+	"	627	4
+
+> ~/develop/LazDriver/CTI/api/bp3596.c
+	"	1	0
+
+> ~/develop/LazDriver/CTI/core/ml7396.c
+	"	1	0
+
+> ~/develop/LazDriver/CTI/hwif/Wire0.c
+	"	1	0
+
+> ~/develop/LazDriver/CTI/hwif/i2c-lzpi.c
+	"	1	0
+
+> ~/develop/LazDriver/drv-lazurite.c
+	"	217	19
+
+> ~/develop/LazDriver/lazdriver.mod.c
+	"	1	0
+
+> ~/driver/LazDriver/.git/COMMIT_EDITMSG
+	"	9	0
+	.	8	0
 	+	1	0
-	+	6	0
 	+	2	0
-	+	6	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
 	+	2	0
 	+	3	0
 	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
 	+	3	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
 	+	4	0
-	+	5	4
-	+	5	17
-	+	5	17
-	+	5	17
-	+	5	17
-	+	5	17
-	+	5	17
-	+	5	16
-	+	5	17
-	+	5	17
-	+	6	0
-	+	5	15
-	+	5	113
-
-> ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/test_raw.java
-	"	16	15
-	^	16	16
-	.	16	8
-	+	1	11
-	+	33	0
-	+	1	35
-	+	10	9
-	+	16	11
-	+	13	27
-	+	10	13
-	+	13	24
-	+	16	8
-
-> ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/test_raw2.java
-	"	17	16
-	^	17	17
-	.	17	16
-	+	1	0
+	+	5	0
 	+	2	0
-	+	17	9
-	+	18	11
-	+	16	14
-	+	17	16
-
-> ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/test_serial.java
-	"	17	18
-	^	17	19
-	.	17	8
-	+	9	9
-	+	17	11
-	+	14	30
-	+	9	16
-	+	13	22
-	+	14	27
-	+	17	8
-
-> ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/sample_raw.java
-	"	1	0
-
-> ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/io/SubGHz.java
-	"	228	0
-	^	209	59
-	.	209	58
-	+	208	0
-	+	204	9
-	+	209	58
-
-> ~/LazGem/release.log
-	"	4	46
-	^	4	47
-	.	4	46
-	+	1	23
-	+	3	86
-	+	4	46
-
-> ~/LazGem/lib/LazGem/version.rb
-	"	2	19
-	.	2	19
-	+	2	19
-
-> ~/LazGem/lib/LazGem/device.rb
-	"	160	26
-	^	46	46
-	.	160	26
-	+	30	62
-	+	46	46
-	+	160	26
-
-> ~/LazGem/sample/sample_rx.rb
-	"	38	0
-	.	38	0
-	+	37	0
-	+	38	0
-
-> ~/ruby2/sample_rx.rb
-	"	33	0
-	^	8	20
-	.	8	19
-	+	46	44
-	+	46	0
-	+	46	101
-	+	46	0
-	+	46	44
-	+	46	70
-	+	46	20
-	+	46	58
-	+	46	0
-	+	46	0
-	+	46	0
-	+	38	20
-	+	46	0
-	+	38	32
-	+	46	24
-	+	46	0
-	+	46	38
-	+	46	24
-	+	46	0
-	+	46	37
-	+	46	29
-	+	46	31
-	+	46	0
-	+	38	44
-	+	39	70
-	+	46	0
-	+	39	14
-	+	41	17
-	+	42	16
-	+	43	16
-	+	45	31
-	+	28	52
-	+	44	10
-	+	38	42
-	+	28	61
-	+	29	61
-	+	28	64
-	+	29	64
-	+	28	24
-	+	38	48
-	+	28	56
-	+	29	59
-	+	39	41
-	+	38	22
-	+	40	0
-	+	39	41
-	+	40	13
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
 	+	11	0
-	+	10	32
-	+	17	58
-	+	16	8
-	+	19	39
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
 	+	20	0
 	+	21	0
-	+	25	0
-	+	20	7
-	+	19	8
-	+	20	9
-	+	21	16
-	+	25	0
 	+	22	0
 	+	23	0
 	+	24	0
-	+	22	27
-	+	15	20
-	+	16	1
-	+	23	25
-	+	24	17
-	+	20	16
-	+	19	6
-	+	27	33
-	+	32	1
-	+	32	0
-	+	30	0
-	+	32	0
-	+	31	0
-	+	37	15
-	+	48	18
-	+	6	21
-	+	25	21
-	+	6	21
-	+	25	6
-	+	25	4
+	+	25	0
 	+	26	0
-	+	25	16
-	+	6	14
-	+	8	19
-	+	10	36
-	+	8	19
-
-> /var/lib/gems/1.9.1/gems/LazGem-0.0.3/lib/LazGem/device.rb
-	"	1	0
-
-> ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/test_raw$1.class
-	"	1	0
-	a	1	0
-
-> ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/Makefile
-	"	1	23
-	^	1	80
-	.	1	23
-	+	1	23
-
-> ~/java/LazuriteJava/Makefile
-	"	22	8
-	^	22	9
-	.	22	8
-	+	2	6
-	+	10	41
-	+	2	41
-	+	11	0
-	+	7	17
-	+	11	0
-	+	18	23
-	+	2	4
-	+	5	0
-	+	3	10
-	+	2	27
-	+	3	39
-	+	10	39
-	+	14	17
-	+	15	13
-	+	4	60
-	+	19	29
-	+	3	12
-	+	18	25
-	+	21	8
-	+	22	8
-
-> ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/sample_serial.java
-	"	41	6
-	^	59	2
-	.	59	0
-	+	54	0
-	+	53	30
-	+	56	5
-	+	54	5
-	+	55	5
-	+	55	0
-	+	56	0
-	+	56	0
-	+	56	0
-	+	56	0
-	+	52	0
-	+	56	0
-	+	52	0
-	+	49	0
-	+	56	0
-	+	13	37
-	+	58	1
-	+	59	0
-
-> ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/sample_serial
-	"	1	0
-
-> ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/jexe
-	"	2	57
-
-> ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/SubGHz
-	"	1	0
-
-> ~/java/LazuriteJava/src/com/lapis_semi/lazurite/io/Raw.k
-	"	1	0
-
-> ~/java/LazuriteJava/lib/com/lapis_semi/lazurite/io/Raw.java
-	"	167	14
-
-> ~/java/LazuriteJava/lib/com/lapis_semi/lazurite/io/SubGHz.java
-	"	204	0
-	^	203	1
-	.	202	12
-	+	195	1
-	+	194	2
-	+	193	0
-	+	149	0
-	+	9	15
-	+	23	24
-	+	23	0
-	+	24	0
-	+	22	22
-	+	9	0
-	+	136	13
-	+	7	22
-	+	9	22
-	+	23	16
-	+	22	16
-	+	136	20
 	+	27	0
 	+	28	0
-	+	27	11
-	+	203	1
-	+	143	28
-	+	8	33
-	+	143	17
-	+	27	16
-	+	198	2
-	+	198	11
-	+	203	0
-	+	199	2
-	+	203	0
-	+	198	0
-	+	198	0
-	+	198	0
-	+	198	0
-	+	201	2
-	+	202	12
-
-> ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/Param.java
-	"	46	0
-	^	73	29
-	.	73	0
-	+	1	0
-	+	73	0
-
-> ~/java/LazuriteJava/sample/sample_serial.java
-	"	48	10
-	^	6	36
-	.	6	35
-	+	1	0
-	+	6	35
-
-> ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/nullnull.graph
-	"	1	0
-
-> ~/driver/LazDriver/drv-802154e.c
-	"	93	21
-	^	49	25
-	.	52	11
-	+	51	21
-	+	53	11
-	+	49	9
-	+	51	9
-	+	52	9
-	+	49	11
-	+	51	11
-	+	52	11
-	+	53	11
-	+	51	11
-	+	52	11
-	+	49	11
-	+	53	27
-	+	54	16
-	+	52	0
-	+	52	0
-	+	50	0
-	+	49	24
-	+	50	9
-	+	51	9
-	+	52	0
-	+	51	9
-	+	51	11
-	+	52	9
-	+	53	9
-	+	54	9
-	+	49	24
-	+	52	11
-	+	51	11
-	+	52	11
-
-> ~/driver/LazDriver/Makefile
-	"	11	0
-
-> ~/java/LazuriteGraph/.classpath
-	"	5	1
-
-> ~/LazGem/sample/sample_tx.rb
-	"	1	0
-	.	10	0
-	+	10	0
-
-> ~/java/LazuriteJava/README.md
-	"	23	0
-	^	35	0
-	.	23	0
-	+	1	14
-	+	6	0
-	+	6	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	2	0
+	+	3	0
 	+	4	0
-	+	3	20
-	+	17	0
-	+	6	73
-	+	14	28
-	+	14	12
-	+	6	15
-	+	6	16
-	+	6	74
+	+	5	0
 	+	6	0
-	+	14	92
-	+	17	0
-	+	15	2
-	+	14	1
-	+	15	52
-	+	17	0
-	+	8	2
-	+	16	0
-	+	18	0
-	+	34	0
-	+	23	2
-	+	23	9
-	+	21	0
-	+	19	16
-	+	33	2
-	+	27	13
-	+	33	3
-	+	31	18
-	+	33	2
-	+	32	0
-	+	25	0
-	+	34	55
-	+	23	0
-	o	10	0
-
-> ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/10axis.graph
-	"	1	0
-
-> ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/ls
-	"	1	0
-
-> ~/java/LazuriteGraph/src/com/lapis_semi/lazurite/LazuriteGraph/Param.class
-	"	1	0
-
-> ~/java/LazuriteJava/lib/com/lapis_semi/lazurite/io/jexe
-	"	1	0
-
-> ~/java/LazuriteJava/.gitignore
-	"	1	0
-	^	2	5
-	.	2	4
-	+	2	4
-
-> ~/java/LazuriteJava/sample/Makefile
-	"	1	0
-
-> ~/.bashrc
-	"	33	0
-
-> ~/java/LazuriteJava/lib/com/lapis_semi/lazurite/io/mac_info.java
-	"	88	27
-	^	25	8
-	.	25	8
-	+	29	14
-	+	83	14
-	+	8	14
-	+	9	8
-	+	10	13
-	+	11	1
-	+	12	1
-	+	13	1
-	+	14	1
-	+	15	1
-	+	16	1
-	+	17	1
-	+	18	1
-	+	19	1
-	+	20	1
-	+	21	1
-	+	22	1
-	+	23	1
-	+	25	8
-
-> ~/java/LazuriteJava/sample/sample_raw.java
-	"	1	0
-	^	7	36
-	.	8	0
-	+	1	0
-	+	7	35
+	+	7	0
 	+	8	0
 
-> ~/java/LazuriteJava/sample/sample_raw2.java
-	"	37	4
-	^	13	36
-	.	13	35
-	+	1	0
-	+	13	35
-
-> ~/java/LazuriteJava/lib/com/lapis_semi/lazurite/io/Makefile
-	"	16	0
-	^	16	0
-	.	15	20
-	+	14	0
-	+	13	0
-	+	15	32
-	+	15	33
-	+	16	0
-	+	15	20
-
-> ~/java/LazuriteJava/sample/SerialMonitor.rb
-	"	1	0
-
-> ~/java/LazuriteJava/samlp
-	"	1	0
-
-> ~/java_api/com/lapis_semi/lazurite/io/sample_raw.java
-	"	31	4
-
-> ~/java_api/com/lapis_semi/lazurite/io/jexe
-	"	2	18
-	^	2	19
-	.	2	18
-	+	2	18
-
-> ~/ruby/SerialMonitor.rb
-	"	72	30
-	^	69	117
-	.	69	114
-	+	67	10
-	+	64	0
-	+	67	0
-	+	66	0
-	+	66	101
-	+	64	7
-	+	65	15
-	+	68	16
-	+	65	4
-	+	66	0
-	+	69	66
-	+	81	1
-	+	69	70
-	+	68	15
-	+	65	28
-	+	69	114
-
-> ~/java_api/.gitignore
-	"	1	0
-	^	2	0
-	.	1	7
-	+	1	7
-
-> ~/java_api/com/lapis_semi/lazurite/io/SubGHz.java
-	"	167	52
-	^	167	53
-	.	167	52
-	+	167	52
-
-> ~/driver/LazDriver/.gitignore
-	"	4	4
-	^	4	5
-	.	4	4
-	+	6	15
-	+	7	6
-	+	6	0
-	+	8	11
-	+	2	0
-	+	2	0
-	+	1	5
-	+	4	4
-
-> ~/.gitconfig
-	"	1	0
-
-> ~/driver/LazDriver/description-pak
-	"	1	0
-
-> ~/java2/com/lapis_semi/lazurite/io/device.pref
-	"	1	0
-
-> ~/java2/com/lapis_semi/lazurite/io/Makefile
-	"	1	0
-
-> ~/java2/com/lapis_semi/lazurite/io/sample_raw.java
-	"	51	36
-	^	6	23
-	.	6	22
-	+	1	0
-	+	2	0
-	+	51	77
-	+	7	32
-	+	55	19
-	+	51	86
-	+	6	22
-
-> ~/java2/com/lapis_semi/lazurite/io/sample_raw2.java
-	"	12	21
-	^	13	23
-	.	13	22
-	+	1	0
-	+	49	81
-	+	14	0
-	+	49	22
-	+	54	7
-	+	14	0
-	+	13	22
-
-> ~/java2/com/lapis_semi/lazurite/io/jexe
-	"	2	57
-	^	3	0
-	.	2	57
-	+	1	9
-	+	2	57
-
-> ~/java2/com/lapis_semi/lazurite/io/sample_raw
-	"	1	0
-
-> ~/java2/com/lapis_semi/lazurite/io/SerialChart.java
-	"	1	0
-
-> ~/java2/com/lapis_semi/lazurite/io/SubGHzEventListener.java
-	"	3	0
-	.	3	0
-	+	1	0
-	+	3	0
-
-> ~/java2/com/lapis_semi/lazurite/io/mac_info.java
-	"	1	34
-	^	1	35
-	.	1	34
-	+	108	0
-	+	107	0
-	+	106	0
-	+	88	40
-	+	93	0
-	+	98	37
-	+	93	37
-	+	93	0
-	+	93	0
-	+	93	0
-	+	93	0
-	+	93	22
-	+	93	0
-	+	93	117
-	+	93	0
-	+	3	0
-	+	1	33
-	+	2	0
-	+	1	34
-	m	17	15
-
-> ~/java2/com/lapis_semi/lazurite/io/Raw.java
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/java2/com/lapis_semi/lazurite/io/SubGHz.java
-	"	1	0
-	.	1	0
-	+	85	0
-	+	101	0
-	+	8	25
-	+	9	26
-	+	150	0
-	+	26	19
-	+	27	19
-	+	26	22
-	+	27	22
-	+	145	4
-	+	146	4
-	+	145	22
-	+	146	22
-	+	150	0
-	+	150	15
-	+	146	25
-	+	150	0
-	+	151	35
-	+	150	4
-	+	147	4
-	+	148	3
-	+	149	3
-	+	160	1
-	+	161	10
-	+	151	0
-	+	152	4
-	+	112	6
-	+	112	11
-	+	112	0
-	+	112	0
-	+	108	0
-	+	110	6
-	+	111	7
-	+	110	6
-	+	111	6
-	+	152	26
-	+	31	25
-	+	13	28
-	+	125	22
-	+	16	1
-	+	16	1
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	9
-	+	16	8
-	+	16	8
-	+	16	0
-	+	1	0
-
-> ~/java2/com/lapis_semi/lazurite/io/CtrlDeviceList.java
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/java2/com/lapis_semi/lazurite/io/sample_serial.java
-	"	1	33
-	^	1	34
-	.	1	33
-	+	54	6
-	+	54	0
-	+	57	0
-	+	56	3
-	+	56	0
-	+	49	0
-	+	58	0
-	+	57	29
+> ~/driver/LazDriver/net/endian.h
+	"	34	18
+	^	36	39
+	.	38	19
+	+	32	21
+	+	33	21
+	+	34	21
+	+	31	35
+	+	32	35
+	+	33	35
+	+	34	35
+	+	32	33
+	+	34	33
+	+	41	19
+	+	42	19
+	+	41	14
+	+	42	14
+	+	41	11
+	+	42	11
+	+	34	11
+	+	33	11
+	+	32	11
+	+	31	13
+	+	32	13
+	+	33	13
+	+	34	13
+	+	33	13
+	+	32	13
+	+	31	13
+	+	41	16
+	+	42	16
+	+	31	33
+	+	32	32
+	+	33	33
+	+	34	32
+	+	35	10
+	+	36	0
+	+	39	10
+	+	39	10
+	+	35	32
+	+	36	51
+	+	35	14
+	+	36	15
+	+	35	27
+	+	36	18
+	+	35	18
+	+	36	18
+	+	34	15
+	+	33	15
+	+	32	15
+	+	31	15
+	+	32	15
+	+	33	15
+	+	34	15
+	+	39	16
+	+	39	16
+	+	39	0
+	+	37	8
+	+	38	8
+	+	37	11
+	+	38	11
+	+	37	14
+	+	38	14
+	+	37	16
+	+	38	14
+	+	37	26
+	+	38	26
+	+	37	28
+	+	38	28
+	+	35	26
+	+	36	26
+	+	37	26
+	+	38	29
+	+	37	29
+	+	36	29
+	+	35	29
+	+	42	13
+	+	51	36
+	+	52	36
+	+	53	36
 	+	54	36
-	+	54	39
-	+	54	31
-	+	54	37
-	+	54	0
-	+	54	0
-	+	54	23
-	+	54	10
-	+	54	0
-	+	54	13
-	+	54	5
-	+	54	5
-	+	53	11
-	+	53	39
-	+	54	4
-	+	51	8
-	+	54	4
-	+	53	0
-	+	54	3
-	+	54	3
-	+	54	3
-	+	54	3
-	+	54	3
-	+	54	3
-	+	54	3
-	+	54	3
-	+	54	3
-	+	54	3
-	+	54	0
-	+	54	0
-	+	51	27
-	+	53	20
-	+	54	5
-	+	54	0
-	+	56	0
-	+	60	0
-	+	51	5
-	+	53	11
-	+	54	6
-	+	53	25
-	+	51	28
-	+	54	29
-	+	48	0
+	+	53	30
+	+	54	30
+	+	53	32
+	+	54	32
+	+	51	32
+	+	52	29
+	+	51	34
+	+	52	34
+	+	53	41
+	+	54	38
+	+	35	41
+	+	36	41
+	+	37	41
+	+	38	38
+	+	36	38
+	+	51	19
+	+	52	19
+	+	53	19
+	+	54	19
+	+	35	0
+	+	36	19
+	+	37	19
+	+	38	19
+
+> ~/driver/LazDriver/net/mach_lazurite.h
+	"	56	9
+	^	56	10
+	.	56	9
+	+	44	38
+	+	61	17
+	+	35	14
+	+	36	1
+	+	42	0
+	+	37	9
+	+	42	10
+	+	37	0
+	+	34	1
+	+	43	0
 	+	49	0
+	+	49	0
+	+	25	16
+	+	33	0
+	+	27	0
+	+	33	17
+	+	27	13
+	+	28	14
+	+	29	8
+	+	32	2
+	+	30	17
+	+	31	18
+	+	32	5
+	+	30	20
+	+	31	18
+	+	27	13
+	+	52	20
+	+	64	0
+	+	1	0
+	+	44	0
+	+	64	5
+	+	53	5
+	+	42	5
+	+	33	5
+	+	51	4
+	+	52	4
+	+	57	4
+	+	58	4
+	+	59	4
+	+	60	4
+	+	66	10
+	+	67	14
+	+	79	19
+	+	93	5
+	+	41	15
+	+	56	9
+
+> ~/driver/LazDriver/net/errno.h
+	"	13	67
+	^	33	6
+	.	33	5
+	+	24	18
+	+	21	0
+	+	23	0
+	+	22	13
+	+	21	14
+	+	1	7
+	+	33	5
+
+> ~/driver/LazDriver/net/app_lazurite.c
+	"	49	18
+	^	49	19
+	.	49	18
+	+	1	14
+	+	51	0
+	+	37	13
+	+	44	1
+	+	41	1
+	+	36	14
+	+	37	12
+	+	41	17
+	+	36	6
+	+	36	4
+	+	36	4
+	+	36	64
+	+	36	6
+	+	36	0
+	+	36	12
+	+	41	0
+	+	41	8
+	+	41	4
+	+	41	9
+	+	36	9
+	+	36	0
+	+	36	0
+	+	36	2
+	+	41	1
+	+	36	18
+	+	36	0
+	+	36	0
+	+	35	14
+	+	41	10
+	+	42	27
+	+	39	22
+	+	43	15
+	+	40	34
+	+	43	9
+	+	36	0
+	+	34	0
+	+	32	24
+	+	37	15
+	+	20	0
+	+	21	0
+	+	31	0
+	+	33	14
+	+	41	8
+	+	42	11
+	+	51	0
+	+	50	8
+	+	48	11
+	+	49	19
+	+	50	14
+	+	49	18
+
+> ~/driver/LazDriver/net/app_lazurite.h
+	"	51	16
+	^	51	17
+	.	51	16
+	+	42	16
+	+	52	1
+	+	52	0
+	+	52	0
+	+	52	0
+	+	43	0
+	+	52	0
+	+	53	0
+	+	47	9
+	+	43	0
+	+	54	0
+	+	21	0
+	+	1	5
+	+	21	0
+	+	37	0
+	+	38	0
+	+	42	0
+	+	38	1
+	+	37	21
+	+	38	18
+	+	21	24
+	+	22	8
+	+	55	5
+	+	24	27
+	+	24	0
+	+	34	0
+	+	28	0
+	+	51	16
+	+	35	22
+	+	51	16
+
+> ~/driver/liblazurite/lib/dyliblazurite.cpp
+	"	120	28
+
+> ~/driver/LazDriver/net/NERD_tree_3
+	"	19	13
+	.	1	0
+	+	1	0
+
+> ~/driver/LazDriver/net/common_lazurite.h
+	"	48	0
+	.	47	0
+	+	1	0
 	+	51	0
 	+	49	0
-	+	54	0
-	+	53	0
-	+	54	0
-	+	53	5
-	+	54	0
-	+	54	0
-	+	57	0
-	+	53	0
-	+	54	0
-	+	53	0
-	+	54	0
-	+	53	0
-	+	54	0
-	+	53	6
-	+	54	0
-	+	52	0
-	+	53	0
-	+	53	57
-	+	53	25
-	+	52	24
-	+	53	0
-	+	53	0
-	+	53	0
-	+	53	0
-	+	53	0
-	+	52	27
-	+	53	0
-	+	52	0
-	+	53	0
-	+	53	0
-	+	53	0
-	+	54	0
-	+	53	0
-	+	54	24
-	+	57	26
-	+	53	0
-	+	54	0
-	+	57	0
 	+	50	0
-	+	52	0
-	+	53	0
-	+	52	0
-	+	60	0
-	+	53	0
-	+	59	0
-	+	1	33
+	+	1	8
+	+	21	14
+	+	22	15
+	+	41	0
+	+	41	0
+	+	42	0
+	+	35	0
+	+	35	32
+	+	36	14
+	+	40	0
+	+	37	46
+	+	38	7
+	+	39	13
+	+	38	28
+	+	39	26
+	+	24	0
+	+	34	0
+	+	47	16
+	+	47	0
+	+	47	0
 
-> ~/java2/com/lapis_semi/lazurite/io/SubGHzEventObject.java
+> /usr/share/vim/vim74/doc/help.txt
 	"	1	0
+
+> ~/driver/LazDriver/net/drv-lazurite.c
+	"	32	23
+
+> ~/driver/LazDriver/common-lzpi.h
+	"	1	0
+
+> ~/driver/liblazurite/Doxyfile
+	"	757	0
+	^	756	30
+	.	756	29
+	+	756	29
+
+> ~/driver/LazDriver/NERD_tree_1
+	"	14	18
 	.	1	0
 	+	1	0
-
-> ~/java2/com/lapis_semi/lazurite/io/common.java
-	"	1	0
-	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 	+	1	0
 
-> ~/java2/com/lapis_semi/lazurite/io/RawEventObject.java
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/java2/com/lapis_semi/lazurite/io/RawEventListener.java
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/java2/com/lapis_semi/lazurite/io/sample_serial
-	"	1	0
-
-> ~/java2/com/lapis_semi/lazurite/io/sample_serial2.java
-	"	23	3
-	.	4	0
-	+	4	0
-
-> ~/java2/com/lapis_semi/lazurite/io/sample_serial.class
-	"	1	0
-
-> ~/java2/com/lapis_semi/lazurite/SensorGraph/LazuriteGraph.java
-	"	1	0
-
-> ~/java/com/lapis_semi/lazurite/io/SubGHz.java
-	"	80	2
-	^	80	10
-	.	80	9
-	+	119	0
-	+	123	2
-	+	121	0
-	+	122	19
-	+	124	23
-	+	122	0
-	+	120	37
-	+	122	27
-	+	120	39
-	+	122	45
-	+	81	40
-	+	80	9
-
-> ~/java/com/lapis_semi/lazurite/io/sample_serial.java
-	"	21	23
-	^	21	6
-	.	21	5
-	+	20	40
-	+	21	5
-
-> ~/LazGem/README.md
-	"	29	22
-	^	29	23
-	.	29	22
-	+	26	0
+> ~/driver/LazDriver/net/macl_lazurite.h
+	"	13	24
+	^	62	4
+	.	62	0
+	+	1	6
+	+	21	15
+	+	22	13
+	+	35	11
+	+	35	0
+	+	24	0
+	+	35	0
+	+	34	0
+	+	25	14
+	+	34	0
+	+	40	0
+	+	41	0
 	+	25	13
-	+	27	3
-	+	26	3
-	+	27	22
-	+	30	72
-	+	29	22
+	+	27	15
+	+	28	16
+	+	29	15
+	+	30	10
+	+	34	0
+	+	30	16
+	+	31	19
+	+	32	21
+	+	33	15
+	+	30	0
+	+	26	0
+	+	33	0
+	+	114	14
+	+	33	16
+	+	62	0
+	n	40	0
 
-> ~/test/LazGem/sample/sample_rx.rb
-	"	10	10
+> ~/.vimrc
+	"	33	24
+	^	33	25
+	.	33	23
+	+	39	0
+	+	3	0
+	+	25	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	25	0
+	+	25	0
+	+	25	0
+	+	22	0
+	+	22	0
+	+	25	0
+	+	23	31
+	+	24	26
+	+	3	0
+	+	22	30
+	+	64	0
+	+	33	0
+	+	19	0
+	+	28	0
+	+	33	23
+
+> ~/driver/LazDriver/subghz_api.c
+	"	374	27
+
+> ~/driver/LazDriver/net/NERD_tree_2
+	"	5	0
 	.	1	0
 	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/test/LazGem/lib/LazGem/device.rb
-	"	21	10
-	^	232	16
-	.	200	0
-	+	222	22
-	+	222	0
-	+	221	58
+> ~/driver/LazDriver/CTI/api/bp3596.c
+	"	366	33
+	^	366	35
+	.	366	0
+	+	162	50
+	+	164	0
+	+	163	54
+	+	164	65
+	+	163	65
+	+	162	65
+	+	165	65
+	+	166	54
+	+	167	54
+	+	165	53
+	+	162	55
+	+	279	1
+	+	280	0
+	+	164	25
+	+	219	4
+	+	225	0
+	+	228	4
+	+	215	71
+	+	224	0
+	+	225	0
+	+	215	75
+	+	224	0
+	+	69	31
+	+	71	0
+	+	70	15
+	+	75	0
+	+	74	9
+	+	59	1
+	+	57	1
+	+	59	9
+	+	58	13
+	+	37	10
+	+	39	0
+	+	37	12
+	+	66	19
+	+	38	12
+	+	38	1
+	+	37	12
+	+	366	0
+
+> ~/driver/LazDriver/CTI/core/ml7396.c
+	"	787	0
+	.	786	2
+	+	786	2
+
+> ~/driver/LazDriver/net/phy_lazurite.h
+	"	23	14
+	^	30	5
+	.	30	4
+	+	80	21
+	+	57	17
+	+	81	39
+	+	75	0
+	+	79	0
+	+	78	29
+	+	75	0
+	+	2	0
+	+	1	6
+	+	21	0
+	+	22	14
+	+	23	14
+	+	32	5
+	+	25	0
+	+	30	4
+
+> ~/driver/LazDriver/net/mac_lazurite.c
+	"	83	0
+	.	83	0
+	+	54	0
+	+	54	0
+	+	22	6
+	+	24	12
+	+	21	0
+	+	54	0
+	+	54	14
+	+	54	0
+	+	24	10
+	+	54	0
+	+	54	8
+	+	54	10
+	+	54	32
+	+	54	39
+	+	54	0
+	+	54	12
+	+	54	0
+	+	54	0
+	+	54	0
+	+	54	0
+	+	54	0
+	+	54	0
+	+	54	39
+	+	70	0
+	+	69	0
+	+	54	0
+	+	68	0
+	+	54	130
+	+	54	20
+	+	67	0
+	+	54	38
+	+	56	1
+	+	55	12
+	+	66	14
+	+	54	11
+	+	54	13
+	+	54	14
+	+	54	14
+	+	54	28
+	+	54	0
+	+	54	1
+	+	54	11
+	+	57	0
+	+	59	0
+	+	63	0
+	+	63	0
+	+	60	0
+	+	60	0
+	+	60	0
+	+	61	0
+	+	62	0
+	+	63	0
+	+	65	0
+	+	58	42
+	+	59	22
+	+	60	0
+	+	23	24
+	+	21	0
+	+	54	0
+	+	54	0
+	+	36	0
+	+	83	0
+
+> ~/driver/LazDriver/net/mac_lazurite.h
+	"	59	0
+	^	60	21
+	.	61	0
+	+	64	34
+	+	55	11
+	+	65	12
+	+	64	26
+	+	65	27
+	+	31	0
+	+	28	6
+	+	31	8
+	+	37	1
+	+	31	0
+	+	35	1
+	+	26	0
+	+	29	1
+	+	30	1
+	+	37	0
+	+	26	0
+	+	29	15
+	+	31	0
+	+	34	1
+	+	31	7
+	+	29	10
+	+	30	14
+	+	28	0
+	+	33	0
+	+	32	8
+	+	36	1
+	+	33	1
+	+	34	1
+	+	35	1
+	+	48	0
 	+	49	0
-	+	221	59
-	+	231	0
-	+	232	15
-	+	49	0
-	+	232	16
-	+	200	0
-	+	200	0
-	+	200	0
+	+	36	6
+	+	42	7
+	+	61	0
+	+	60	20
+	+	61	0
 
-> ~/driver/sub-ghz/.gitignore
-	"	8	0
-	^	8	0
-	.	7	13
-	+	4	2
-	+	5	12
-	+	7	13
-
-> ~/driver/sub-ghz/Makefile
-	"	15	0
-	.	16	0
-	+	16	0
-	+	16	0
-
-> ~/driver/test/gnubik-2.4/INSTALL
+> ~/driver/LazDriver/CTI/mac_lazurite.c
 	"	24	0
 
-> ~/driver/test/gnubik-2.4/README
+> ~/driver/LazDriver/CTI/mac_lazurite.h
+	"	62	0
+	^	62	11
+	.	62	11
+	+	62	11
+
+> ~/driver/LazDriver/CTI/phy_lazurite.h
+	"	83	21
+	^	36	27
+	.	36	26
+	+	59	25
+	+	60	26
+	+	55	34
+	+	56	37
+	+	57	27
+	+	58	24
+	+	59	27
+	+	60	28
+	+	58	36
+	+	59	32
+	+	60	33
+	+	61	28
+	+	60	28
+	+	59	27
+	+	58	24
+	+	57	27
+	+	56	28
+	+	55	0
+	+	32	0
+	+	31	35
+	+	105	0
+	+	106	0
+	+	107	0
+	+	108	0
+	+	106	0
+	+	63	0
+	+	104	0
+	+	103	0
+	+	102	0
+	+	101	0
+	+	100	0
+	+	99	0
+	+	98	0
+	+	97	0
+	+	96	0
+	+	95	0
+	+	94	0
+	+	93	0
+	+	92	0
+	+	91	0
+	+	90	0
+	+	89	0
+	+	88	0
+	+	87	0
+	+	86	0
+	+	85	0
+	+	84	0
+	+	83	0
+	+	82	0
+	+	81	0
+	+	80	0
+	+	79	0
+	+	78	0
+	+	77	0
+	+	76	0
+	+	75	0
+	+	74	0
+	+	73	0
+	+	72	0
+	+	71	0
+	+	70	0
+	+	69	0
+	+	68	0
+	+	67	0
+	+	66	0
+	+	65	0
+	+	64	0
+	+	55	0
+	+	60	9
+	+	61	6
+	+	59	24
+	+	58	21
+	+	40	49
+	+	41	117
+	+	40	43
+	+	41	83
+	+	40	0
+	+	40	82
+	+	41	0
+	+	39	10
+	+	38	11
+	+	37	10
+	+	36	10
+	+	35	10
+	+	34	10
+	+	33	10
+	+	32	10
+	+	31	10
+	+	46	10
+	+	42	0
+	+	41	21
+	+	45	38
+	+	35	1
+	+	34	51
+	+	32	44
+	+	33	45
+	+	31	49
+	+	1	14
+	+	37	49
+	+	36	26
+
+> ~/driver/LazDriver/CTI/core/ml7396.h
+	"	139	1
+	^	188	2
+	.	188	0
+	+	172	1
+	+	178	0
+	+	188	0
+
+> ~/driver/LazDriver/CTI/api/aes.c
+	"	673	17
+
+> ~/driver/LazDriver/CTI/api/aes.h
 	"	1	0
-	.	1	0
+
+> ~/driver/LazDriver/CTI/api/bp3596.h
+	"	49	0
+
+> ~/driver/LazDriver/CTI/core/ml7396_reg.h
+	"	1	0
+
+> ~/driver/LazDriver/CTI/hwif/Wire0.c
+	"	1	0
+
+> ~/driver/LazDriver/CTI/hwif/hal-lzpi.c
+	"	1	0
+
+> ~/driver/LazDriver/CTI/hwif/hal.h
+	"	1	0
+
+> ~/driver/LazDriver/CTI/hwif/hal_lazurite.c
+	"	1	0
+
+> ~/driver/LazDriver/CTI/hwif/hal_lazurite.h
+	"	1	0
+
+> ~/driver/LazDriver/CTI/hwif/i2c-lzpi.c
+	"	1	0
+
+> ~/driver/LazDriver/CTI/hwif/ml7396_hwif_hal.c
+	"	1	0
+
+> ~/driver/LazDriver/CTI/hwif/spi-lzpi.c
+	"	1	0
+
+> ~/driver/LazDriver/drv-lazurite.c
+	"	1	0
+
+> ~/driver/LazDriver/ml7396_hwif_hal.c
+	"	1	0
+
+> ~/driver/LazDriver/subghz_api.h
+	"	1	0
+
+> ~/driver/LazDriver/subghz_api.o
+	"	1	0
+
+> ~/driver/LazDriver/CTI/phy7396.h
+	"	26	19
+	^	26	20
+	.	26	19
 	+	1	0
+	+	21	8
+	+	29	5
+	+	29	0
+	+	1	14
+	+	3	50
+	+	21	12
+	+	22	12
+	+	30	0
+	+	24	16
+	+	27	16
+	+	25	13
+	+	26	9
+	+	25	5
+	+	26	19
 
-> ~/driver/test/gnubik-2.4/configure
-	"	4672	0
+> ~/driver/LazDriver/.gitignore
+	"	7	0
+	^	7	1
+	.	7	0
+	+	7	0
 
-> ~/driver/test/gnubik-2.4/src/swatch.h
-	"	1	0
-
-> ~/driver/test/gnubik-2.4/config
-	"	1	0
-
-> ~/driver/test/gnubik-2.4/COPYING
-	"	1	20
-
-> ~/driver/sub-ghz/drv-802154e.c
-	"	322	23
-	^	322	24
-	.	322	23
-	+	171	35
-	+	189	0
-	+	198	0
-	+	198	10
-	+	198	47
-	+	176	0
-	+	180	0
-	+	186	0
-	+	180	0
-	+	181	0
-	+	61	15
-	+	64	15
-	+	203	0
-	+	201	6
-	+	205	6
-	+	208	6
-	+	202	55
-	+	206	27
-	+	209	16
-	+	218	29
-	+	224	29
-	+	236	50
-	+	190	0
-	+	197	0
-	+	191	0
-	+	192	0
-	+	193	0
-	+	194	0
-	+	195	0
-	+	196	0
-	+	190	50
-	+	191	50
-	+	192	50
-	+	193	50
-	+	194	50
-	+	195	50
-	+	196	50
-	+	197	50
-	+	191	49
-	+	192	49
-	+	193	49
-	+	194	49
-	+	195	49
-	+	196	49
-	+	197	49
-	+	228	0
-	+	236	0
-	+	228	29
-	+	229	29
-	+	230	29
-	+	231	29
-	+	232	29
-	+	233	29
-	+	234	29
-	+	235	29
-	+	157	34
-	+	168	44
-	+	206	44
-	+	228	49
-	+	229	49
-	+	230	49
-	+	231	49
-	+	232	49
-	+	233	49
-	+	234	49
-	+	235	49
-	+	190	49
-	+	191	49
-	+	192	49
-	+	193	49
-	+	194	49
-	+	195	49
-	+	196	49
-	+	197	49
-	+	240	0
-	+	238	9
-	+	240	12
-	+	235	0
-	+	239	3
-	+	240	0
-	+	239	30
-	+	240	0
-	+	139	0
-	+	129	0
-	+	133	0
-	+	120	36
-	+	152	5
-	+	154	23
-	+	158	6
-	+	157	29
-	+	159	19
-	+	216	33
-	+	217	6
-	+	218	19
-	+	121	8
-	+	306	36
-	+	123	0
-	+	322	24
-	+	311	22
-	+	322	23
-	a	1	0
-
-> ~/test/LazGem/lib/LazGem.rb
-	"	1	0
-	^	4	32
-	.	4	31
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	3	0
-	+	3	0
-	+	4	0
-	+	4	0
-	+	3	0
-	+	4	0
-	+	2	16
-	+	3	23
-	+	4	0
-	+	6	0
-	+	1	12
-	+	4	31
-
-> ~/test/LazGem/test/LazGem_test.rb
-	"	1	0
-
-> ~/test/LazGem/sample/sample_tx.rb
-	"	26	1
-	.	27	0
-	+	6	9
-	+	24	6
-	+	28	0
-	+	25	1
-	+	27	3
-	+	27	1
-	+	27	6
+> ~/driver/PyLaz/tests/tests_txmode.py
+	"	8	10
+	^	34	4
+	.	28	21
 	+	27	0
+	+	30	0
+	+	33	26
+	+	32	3
+	+	33	36
+	+	35	38
+	+	34	3
+	+	28	21
 
-> ~/test/LazGem/lib/LazGem/version.rb
-	"	2	19
-	^	1	13
-	.	2	19
-	+	1	12
-	+	2	0
-	+	3	0
-	+	2	19
+> ~/driver/PyLaz/tests/tests.py
+	"	86	0
+	^	97	22
+	.	97	21
+	+	69	0
+	+	77	0
+	+	78	0
+	+	95	0
+	+	69	29
+	+	71	4
+	+	74	5
+	+	71	3
+	+	73	0
+	+	74	3
+	+	73	4
+	+	74	8
+	+	72	7
+	+	73	4
+	+	70	24
+	+	79	20
+	+	80	4
+	+	81	7
+	+	80	3
+	+	81	7
+	+	82	4
+	+	83	5
+	+	73	7
+	+	73	0
+	+	82	0
+	+	82	0
+	+	78	28
+	+	70	28
+	+	73	0
+	+	76	4
+	+	75	7
+	+	70	25
+	+	82	0
+	+	85	4
+	+	84	7
+	+	62	0
+	+	64	24
+	+	62	19
+	+	69	0
+	+	54	0
+	+	62	0
+	+	62	15
+	+	64	34
+	+	62	0
+	+	53	43
+	+	62	0
+	+	61	42
+	+	96	0
+	+	106	0
+	+	96	18
+	+	97	21
+	+	69	0
+	+	97	24
+	+	98	0
+	+	98	31
+	+	106	0
+	+	88	0
+	+	87	16
+	+	90	60
+	+	91	0
+	+	89	11
+	+	91	23
+	+	92	0
+	+	93	0
+	+	94	0
+	+	95	0
+	+	95	0
+	+	95	0
+	+	92	46
+	+	93	24
+	+	94	21
+	+	95	0
+	+	90	38
+	+	91	39
+	+	92	37
+	+	93	39
+	+	94	37
+	+	91	54
+	+	93	56
+	+	94	51
+	+	31	63
+	+	86	0
+	+	91	29
+	+	93	31
+	+	94	26
+	+	100	30
+	+	101	39
+	+	102	16
+	+	102	13
+	+	99	22
+	+	102	0
+	+	102	0
+	+	102	3
+	+	102	0
+	+	103	25
+	+	104	3
+	+	102	0
+	+	105	0
+	+	102	15
+	+	97	21
+	m	78	6
 
-> /var/lib/gems/1.9.1/gems/LazGem-0.0.2/lib/LazGem.rb
-	"	4	30
-	^	4	31
+> ~/driver/PyLaz/samples/txrxsample.py
+	"	23	0
+	^	26	8
+	.	26	7
+	+	29	0
+	+	21	0
+	+	29	0
+	+	24	0
+	+	29	0
+	+	26	4
+	+	27	0
+	+	25	0
+	+	26	7
 
-> ~/test/LazGem/sample/ls
+> ~/driver/PyLaz/PyLaz/PyLaz.py
+	"	295	38
+	^	257	28
+	.	257	27
+	+	126	8
+	+	4	19
+	+	316	13
+	+	317	53
+	+	325	21
+	+	326	57
+	+	327	0
+	+	318	0
+	+	84	26
+	+	319	0
+	+	325	27
+	+	326	65
+	+	322	8
+	+	323	61
+	+	87	28
+	+	325	14
+	+	322	14
+	+	87	35
+	+	322	25
+	+	337	23
+	+	338	58
+	+	334	20
+	+	335	56
+	+	334	0
+	+	328	0
+	+	334	14
+	+	335	54
+	+	338	58
+	+	337	23
+	+	90	29
+	+	93	24
+	+	84	21
+	+	87	17
+	+	90	17
+	+	93	17
+	+	337	14
+	+	377	0
+	+	337	0
+	+	259	19
+	+	261	15
+	+	263	15
+	+	265	15
+	+	267	15
+	+	269	15
+	+	337	14
+	+	367	32
+	+	368	63
+	+	367	27
+	+	364	0
+	+	367	32
+	+	368	67
+	+	338	0
+	+	346	0
+	+	364	19
+	+	367	32
+	+	368	59
+	+	365	52
+	+	352	0
+	+	364	22
+	+	367	38
+	+	368	62
+	+	365	60
+	+	358	0
+	+	364	19
+	+	367	12
+	+	365	59
+	+	368	67
+	+	367	32
+	+	340	20
+	+	343	26
+	+	341	60
+	+	344	62
+	+	276	0
+	+	275	28
+	+	286	13
+	+	277	16
+	+	279	16
+	+	281	12
+	+	283	12
+	+	285	12
+	+	257	27
+
+> ~/driver/LazGem/lib/LazGem/ioctl.rb
+	"	147	26
+
+> ~/develop/LazuriteInstaller/setup.sh
+	"	10	0
+
+> ~/driver/LazDriver/Makefile
 	"	1	0
+
+> ~/driver/PyLaz/tests/test.
+	"	1	0
+
+> ~/driver/PyLaz/samples/rxsample.py
+	"	34	0
+
+> ~/driver/PyLaz/samples/txsample.py
+	"	24	51
+	^	24	57
+	.	24	51
+	+	24	51
+
+> ~/driver/PyLaz/setup.py
+	"	62	8
+	.	26	17
+	+	26	17
+
+> ~/driver/PyLaz/tests/test.py
+	"	1	0
+
+> ~/driver/PyLaz/tests/test
+	"	1	0
+
+> ~/driver/PyLaz/tests/test_simple.py
+	"	1	0
+
+> ~/.node-red/flows_raspberrypi.json
+	"	1	0
+
+> ~/driver/PyLaz/README.rst
+	"	1	0
+
+> ~/driver/PyLaz/.git/MERGE_MSG
+	"	1	0
+
+> /usr/local/lib/python2.7/dist-packages/PyLaz/PyLaz.py
+	"	3	0
+	^	122	9
+	.	3	0
+	+	122	8
+	+	3	0
+
+> /var/log/messages
+	"	5027	56
