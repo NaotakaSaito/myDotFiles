@@ -71,38 +71,35 @@ if argc() == 0
   let g:nerdtree_tabs_open_on_console_startup = 1
 end
 
-" Powerline系フォントを利用する
-let g:airline_powerline_fonts = 1
-
-" タブバーのカスタマイズを有効にする
-let g:airline#extensions#tabline#enabled = 1
-
-" タブバーの右領域を非表示にする
-let g:airline#extensions#tabline#show_splits = 0
-let g:airline#extensions#tabline#show_tab_type = 0
-let g:airline#extensions#tabline#show_close_button = 0
-
-
-" One Darkを有効にするために必要
-let g:onedark_termcolors=16
 
 " カラースキーマを宣言する
-colorscheme onedark
+colorscheme molokai
+let g:airline_theme='molokai'
+" Offset hue(HSV) of theme colors between -1.0 and 1.0 (By default, 0.0)
+let g:airline#themes#onedark#hue = 0
+" Offset saturation(HSV) of theme colors between -1.0 and 1.0 (By default, -0.05)
+let g:airline#themes#onedark#saturation = -0.05
+" Offset value(HSV) of theme colors between -1.0 and 1.0 (By default, 0.0)
+let g:airline#themes#onedark#value = 0
+
 
 " j/kによる移動を速くする
 nmap j <Plug>(accelerated_jk_gj)
 nmap k <Plug>(accelerated_jk_gk)
-
-let g:airline#extensions#branch#enabled = 1
 
 " vim-monsterを有効にする
 let g:neocomplete#sources#omni#input_patterns = {
 \  'ruby': '[^. *\t]\.\w*\|\h\w*::'
 \}
 " エディタの分割方向を設定する
-set splitbelow
 set splitright
+set splitbelow
 
 " 自動補完機能を有効にする
 let g:neocomplete#enable_at_startup = 1
+
+" ctagの設定
+nnoremap <C-h> :vsp<CR> :exe("tjump ".expand('<cword>'))<CR>
+nnoremap <C-k> :split<CR> :exe("tjump ".expand('<cword>'))<CR>
+let g:auto_ctags = 1
 

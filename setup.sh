@@ -1,7 +1,7 @@
 #!/bin/sh
 #sudo apt-get update
 #sudo apt-get upgrade
-sudo apt-get install vim vim-gnome jfbterm uim uim-anthy
+sudo apt-get install vim vim-gnome jfbterm uim uim-anthy ctags
 
 cd ~
 curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh

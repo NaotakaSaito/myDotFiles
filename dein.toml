@@ -33,10 +33,13 @@ repo = 'airblade/vim-gitgutter'
 repo = 'vim-airline/vim-airline'
 
 [[plugins]]
-repo = 'joshdick/onedark.vim'
+repo = 'vim-airline/vim-airline-themes'
 
 [[plugins]]
-repo = 'joshdick/airline-onedark.vim'
+repo = 'tomasr/molokai'
+
+#[[plugins]]
+#repo = 'retorillo/airline-onedark.vim'
 
 [[plugins]]
 repo = 'Yggdroot/indentLine'
@@ -76,13 +79,19 @@ if   = '''! has('kaoriya')'''
 repo = 'Shougo/neocomplete.vim'
 on_i = 1
 
+[[plugins]]
+repo = 'szw/vim-tags'
+
+
+[[plugins]]
+repo = 'soramugi/auto-ctags.vim'
 
 # 依存関係を指定したいとき
-[[plugins]]
-repo    = 'vim-airline/vim-airline'
-depends = ['vim-airline-themes']
+#[[plugins]]
+#repo    = 'vim-airline/vim-airline'
+#depends = ['vim-airline-themes']
 
 # 依存関係を指定したからと言って、自動でインストールはされない（ここは NeoBundle と違う）
-[[plugins]]
-repo = 'vim-airline/vim-airline-themes'
+#[[plugins]]
+# repo = 'vim-airline/vim-airline-themes'
 
