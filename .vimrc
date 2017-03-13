@@ -59,7 +59,7 @@ set shiftwidth=4
 set helplang=jp
 set mouse=a
 set paste
-"colorscheme desert
+colorscheme desert
 
 " 不可視ファイルを表示する
 let NERDTreeShowHidden = 1
@@ -71,9 +71,8 @@ if argc() == 0
   let g:nerdtree_tabs_open_on_console_startup = 1
 end
 
-
 " カラースキーマを宣言する
-colorscheme molokai
+"colorscheme molokai
 let g:airline_theme='molokai'
 " Offset hue(HSV) of theme colors between -1.0 and 1.0 (By default, 0.0)
 let g:airline#themes#onedark#hue = 0
