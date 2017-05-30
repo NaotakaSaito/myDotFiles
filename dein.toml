@@ -75,9 +75,9 @@ rev  = 'colorize-template-strings'
 repo = 'elzr/vim-json'
 if   = '''! has('kaoriya')'''
 
-[[plugins]]
-repo = 'Shougo/neocomplete.vim'
-on_i = 1
+# [[plugins]]
+# repo = 'Shougo/neocomplete.vim'
+# on_i = 1
 
 [[plugins]]
 repo = 'szw/vim-tags'

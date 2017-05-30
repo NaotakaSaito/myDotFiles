@@ -87,15 +87,15 @@ nmap j <Plug>(accelerated_jk_gj)
 nmap k <Plug>(accelerated_jk_gk)
 
 " vim-monsterを有効にする
-let g:neocomplete#sources#omni#input_patterns = {
-\  'ruby': '[^. *\t]\.\w*\|\h\w*::'
-\}
+" let g:neocomplete#sources#omni#input_patterns = {
+" \  'ruby': '[^. *\t]\.\w*\|\h\w*::'
+" \}
 " エディタの分割方向を設定する
 set splitright
 set splitbelow
 
 " 自動補完機能を有効にする
-let g:neocomplete#enable_at_startup = 1
+" let g:neocomplete#enable_at_startup = 1
 
 " ctagの設定
 nnoremap <C-h> :vsp<CR> :exe("tjump ".expand('<cword>'))<CR>
