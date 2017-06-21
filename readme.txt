@@ -14,3 +14,5 @@ setup of x11vnc
 setup of static ip address of eth0
 	change /etc/dhcpcd.conf like same file name in this folder.
 
+setup of ssh
+   ssh-keygen -t rsa
