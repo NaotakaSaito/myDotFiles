@@ -1,0 +1,5 @@
+[Desktop Entry]
+Encoding=UTF-8
+Exec=lxterminal -e "node-red"
+Terminal=true
+
