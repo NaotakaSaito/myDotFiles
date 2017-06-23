@@ -1,0 +1,1 @@
+scp -P 22 node-red-contrib-lazurite.zip pi@192.168.30.55://home/pi
