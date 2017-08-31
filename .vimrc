@@ -102,3 +102,5 @@ nnoremap <C-h> :vsp<CR> :exe("tjump ".expand('<cword>'))<CR>
 nnoremap <C-k> :split<CR> :exe("tjump ".expand('<cword>'))<CR>
 let g:auto_ctags = 1
 
+set guifont=LiberationMono\ 10
+
