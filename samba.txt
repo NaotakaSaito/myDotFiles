@@ -1,3 +1,5 @@
+1. sudo apt-get install samba
+2. /etc/samba/smb.confに以下の情報を追記する
 [public]
   comment = Public
   path = /home/pi
@@ -7,3 +9,4 @@
   browsable = yes
   guest ok = yes
 
+3. sudo service smbd restart
