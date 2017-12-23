@@ -58,6 +58,7 @@ set tabstop=4
 set shiftwidth=4
 set helplang=jp
 set mouse=a
+set ttymouse=xterm2
 set paste
 colorscheme desert
 
