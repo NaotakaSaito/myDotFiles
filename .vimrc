@@ -240,7 +240,7 @@ autocmd vimenter * NERDTree
 
 set list
 set listchars=tab:>-,trail:-,eol:<,extends:>,precedes:<,nbsp:%
-set clipboard=unnamed,autoselect
+set clipboard=unnamedplus
 
 let g:vim_json_syntax_conceal = 0
 
