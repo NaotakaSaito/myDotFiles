@@ -1,4 +1,5 @@
 set encoding=utf-8
+set gfn=Monospace\ 11
 scriptencoding utf-8
 " ↑1行目は読み込み時の文字コードの設定
 " ↑2行目はVim Script内でマルチバイトを使う場合の設定
@@ -30,17 +31,17 @@ NeoBundle 'itchyny/lightline.vim'
 " インデントの可視化
 NeoBundle 'Yggdroot/indentLine'
 " 末尾の全角半角空白文字を赤くハイライト
-"NeoBundle 'bronson/vim-trailing-whitespace'
+NeoBundle 'bronson/vim-trailing-whitespace'
 " 構文エラーチェック
 NeoBundle 'scrooloose/syntastic'
 " 多機能セレクタ
-" NeoBundle 'ctrlpvim/ctrlp.vim'
+"NeoBundle 'ctrlpvim/ctrlp.vim'
 " CtrlPの拡張プラグイン. 関数検索
-" NeoBundle 'tacahiroy/ctrlp-funky'
+"NeoBundle 'tacahiroy/ctrlp-funky'
 " CtrlPの拡張プラグイン. コマンド履歴検索
-" NeoBundle 'suy/vim-ctrlp-commandline'
+"NeoBundle 'suy/vim-ctrlp-commandline'
 " CtrlPの検索にagを使う
-" NeoBundle 'rking/ag.vim'
+"NeoBundle 'rking/ag.vim'
 " プロジェクトに入ってるESLintを読み込む
 NeoBundle 'pmsorhaindo/syntastic-local-eslint.vim'
 " NERDTreeを設定
@@ -48,17 +49,20 @@ NeoBundle 'scrooloose/nerdtree'
 " JSONファイルのダブルクォテーションを表示
 NeoBundle 'elzr/vim-json'
 
+NeoBundle 'plasticboy/vim-markdown'
+NeoBundle 'kannokanno/previm'
+NeoBundle 'tyru/open-browser.vim'
 
 
 " vimのlua機能が使える時だけ以下のVimプラグインをインストールする
-" if has('lua')
+"if has('lua')
     " コードの自動補完
-    " NeoBundle 'Shougo/neocomplete.vim'
+    "NeoBundle 'Shougo/neocomplete.vim'
     " スニペットの補完機能
-    " NeoBundle "Shougo/neosnippet"
+    "NeoBundle "Shougo/neosnippet"
     " スニペット集
-    " NeoBundle 'Shougo/neosnippet-snippets'
-" endif
+    "NeoBundle 'Shougo/neosnippet-snippets'
+"endif
 
 call neobundle#end()
 
@@ -93,11 +97,11 @@ set laststatus=2 " ステータスラインを常に表示
 set showmode " 現在のモードを表示
 set showcmd " 打ったコマンドをステータスラインの下に表示
 set ruler " ステータスラインの右側にカーソルの位置を表示する
-
+set statusline=%f
 "----------------------------------------------------------
 " コマンドモード
 "----------------------------------------------------------
-"set wildmenu " コマンドモードの補完
+set wildmenu " コマンドモードの補完
 set history=5000 " 保存するコマンド履歴の数
 
 "----------------------------------------------------------
@@ -106,7 +110,7 @@ set history=5000 " 保存するコマンド履歴の数
 "set expandtab " タブ入力を複数の空白入力に置き換える
 set tabstop=2 " 画面上でタブ文字が占める幅
 set autoindent " 改行時に前の行のインデントを継続する
-set smartindent " 改行時に前の行の構文をチェックし次の行のインデントを増減する
+"set smartindent " 改行時に前の行の構文をチェックし次の行のインデントを増減する
 set shiftwidth=2 " smartindentで増減する幅
 
 "----------------------------------------------------------
@@ -172,29 +176,29 @@ if &term =~ "xterm"
 
     inoremap <special> <expr> <Esc>[200~ XTermPasteBegin("")
 endif
-
+set t_BE=
 "----------------------------------------------------------
 " neocomplete・neosnippetの設定
 "----------------------------------------------------------
-" if neobundle#is_installed('neocomplete.vim')
+if neobundle#is_installed('neocomplete.vim')
     " Vim起動時にneocompleteを有効にする
-    " let g:neocomplete#enable_at_startup = 1
+    let g:neocomplete#enable_at_startup = 1
     " smartcase有効化. 大文字が入力されるまで大文字小文字の区別を無視する
-    " let g:neocomplete#enable_smart_case = 1
+    let g:neocomplete#enable_smart_case = 1
     " 3文字以上の単語に対して補完を有効にする
-    " let g:neocomplete#min_keyword_length = 3
+    let g:neocomplete#min_keyword_length = 3
     " 区切り文字まで補完する
-    " let g:neocomplete#enable_auto_delimiter = 1
+    let g:neocomplete#enable_auto_delimiter = 1
     " 1文字目の入力から補完のポップアップを表示
-    " let g:neocomplete#auto_completion_start_length = 1
+    let g:neocomplete#auto_completion_start_length = 1
     " バックスペースで補完のポップアップを閉じる
-    " inoremap <expr><BS> neocomplete#smart_close_popup()."<C-h>"
+    inoremap <expr><BS> neocomplete#smart_close_popup()."<C-h>"
 
     " エンターキーで補完候補の確定. スニペットの展開もエンターキーで確定
-    " imap <expr><CR> neosnippet#expandable() ? "<Plug>(neosnippet_expand_or_jump)" : pumvisible() ? "<C-y>" : "<CR>"
+    imap <expr><CR> neosnippet#expandable() ? "<Plug>(neosnippet_expand_or_jump)" : pumvisible() ? "<C-y>" : "<CR>"
     " タブキーで補完候補の選択. スニペット内のジャンプもタブキーでジャンプ
-    " imap <expr><TAB> pumvisible() ? "<C-n>" : neosnippet#jumpable() ? "<Plug>(neosnippet_expand_or_jump)" : "<TAB>"
-" endif
+    imap <expr><TAB> pumvisible() ? "<C-n>" : neosnippet#jumpable() ? "<Plug>(neosnippet_expand_or_jump)" : "<TAB>"
+endif
 
 "----------------------------------------------------------
 " Syntastic
@@ -207,15 +211,16 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 0
 " ファイルを開いた時に構文エラーチェックを実行する
 let g:syntastic_check_on_open = 1
-" 「:wq」で終了する時も構文エラーチェックする
-let g:syntastic_check_on_wq = 1
-
+" 「:wq」で終了する時に構文エラーチェックしない
+let g:syntastic_check_on_wq = 0
 " Javascript用. 構文エラーチェックにESLintを使用
 let g:syntastic_javascript_checkers=['eslint']
 " Javascript以外は構文エラーチェックをしない
 let g:syntastic_mode_map = { 'mode': 'passive',
                            \ 'active_filetypes': ['javascript'],
-                           \ 'passive_filetypes': [] }
+                           \ 'passive_filetypes': [''] }
+let g:syntastic_error_symbol = "\u26A0"
+let g:syntastic_warning_symbol = "\u26A0"
 
 "----------------------------------------------------------
 " CtrlP
@@ -237,10 +242,38 @@ let g:syntastic_mode_map = { 'mode': 'passive',
 " endif
 " 起動時にNERDTreeを表示
 autocmd vimenter * NERDTree
+" NERDTree以外のWindowにフォーカス移動
+autocmd VimEnter * wincmd p
+"他のバッファをすべて閉じた時にNERDTreeが開いていたらNERDTreeも一緒に閉じる。
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 set list
-set listchars=tab:>-,trail:-,eol:<,extends:>,precedes:<,nbsp:%
+set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 set clipboard=unnamedplus
+set clipboard+=autoselect
 
 let g:vim_json_syntax_conceal = 0
+
+" markdown
+autocmd BufNewFile,BufRead *.md set filetype=markdown
+let g:vim_markdown_conceal = 0
+let g:vim_markdown_conceal_code_blocks = 0
+let g:vim_markdown_folding_disabled = 1
+
+let g:lightline = {
+      \ 'component_function': {
+			\ 'filename': 'LightlineFilename',
+      \ }
+      \ }
+
+function! LightlineFilename()
+  let root = fnamemodify(get(b:, 'git_dir'), ':h')
+  let path = expand('%:p')
+  if path[:len(root)-1] ==# root
+    return path[len(root)+1:]
+  endif
+  return expand('%')
+endfunction
+
+
 

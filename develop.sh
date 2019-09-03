@@ -10,5 +10,9 @@ if [ $1 == "node" ]; then
 fi
 if [ $1 == "lazfact" ]; then
 	cd /var/www/html/lib/lazfact-0.0.0/src
-	vi
+	vim
+fi
+if [ $1 == "doc" ]; then
+	cd /var/www/html/lib/lazfact-0.0.0/
+	vim api.md
 fi
