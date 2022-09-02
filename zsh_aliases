@@ -1,0 +1,9 @@
+
+alias la='ls -la'
+alias ll='ls -l'
+#alias .='pwd'
+alias ..='cd ..'
+alias connect='~/aws-setup/connect.sh'
+alias meld='/Applications/Meld.app/Contents/MacOS/Meld'
+
+
